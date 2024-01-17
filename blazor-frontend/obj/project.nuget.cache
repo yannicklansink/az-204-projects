@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9/vZuZf4GAZaEkKm2Zz1l7cXUj0dbGpnxbdxvtNLxXgj8UQfaU1WcB0Yry/qmxG+yTYY4cAdle9nQIv0rMz7oQ==",
+  "success": true,
+  "projectFilePath": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\blazor-frontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yanni\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

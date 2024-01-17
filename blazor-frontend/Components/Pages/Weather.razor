@@ -1,0 +1,93 @@
+﻿@page "/weather"
+@using Newtonsoft.Json
+@attribute [StreamRendering]
+
+<PageTitle>Weather</PageTitle>
+
+<h1>Weather</h1>
+
+<p>This component demonstrates showing data.</p>
+
+@if (weatherForecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Temperature (°C)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in weatherForecasts)
+            {
+                <tr>
+                    <td>@forecast.Time</td>
+                    <td>@forecast.Temperature</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+@inject HttpClient Http
+@code {
+
+    private List<WeatherForecast> weatherForecasts;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await Http.GetAsync("https://api.open-meteo.com/v1/forecast?latitude=52.25&longitude=5.75&hourly=temperature_2m");
+
+        if (response.IsSuccessStatusCode)
+        {
+            var json = await response.Content.ReadAsStringAsync();
+
+            var weatherData = JsonConvert.DeserializeObject<WeatherApiResponse>(json);
+
+            if (weatherData?.hourly?.time != null && weatherData?.hourly?.temperature_2m != null)
+            {
+                weatherForecasts = new List<WeatherForecast>();
+                int count = 10;
+
+                for (int i = 0; i < count; i++)
+                {
+                    weatherForecasts.Add(new WeatherForecast
+                    {
+                        Time = weatherData.hourly.time[i],
+                        Temperature = weatherData.hourly.temperature_2m[i]
+                    });
+                }
+            }
+
+        }
+        else
+        {
+            Console.WriteLine("dont have api response back");
+        }
+    }
+
+
+    public class WeatherApiResponse
+    {
+        public HourlyData hourly { get; set; }
+    }
+
+    public class HourlyData
+    {
+        public List<string> time { get; set; }
+        public List<double> temperature_2m { get; set; }
+    }
+
+    private class WeatherForecast
+    {
+        public string Time { get; set; }
+        public double Temperature { get; set; }
+    }
+
+}
