@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|d:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|d:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|solutionrelative:notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4E57FCD-9865-4DEC-BFE4-E58B2C9A114C}|Solution Items{F4E57FCD-9865-4DEC-BFE4-E58B2C9A114C}|D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F4E57FCD-9865-4DEC-BFE4-E58B2C9A114C}|Solution Items{F4E57FCD-9865-4DEC-BFE4-E58B2C9A114C}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|d:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|d:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC0C6860-3599-441D-BC42-4FFBB33D0FB3}|blazor-frontend.csproj|d:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 223,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "notes.md",
+              "DocumentMoniker": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\notes.md",
+              "RelativeDocumentMoniker": "notes.md",
+              "ToolTip": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\notes.md",
+              "RelativeToolTip": "notes.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-01-17T16:03:56.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Routes.razor",
               "DocumentMoniker": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "Components\\Routes.razor",
@@ -59,25 +76,24 @@
               "RelativeToolTip": "Components\\Routes.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-01-16T21:11:42.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-16T21:11:42.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Weather.razor",
               "DocumentMoniker": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Weather.razor",
               "ToolTip": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\Components\\Pages\\Weather.razor",
               "RelativeToolTip": "Components\\Pages\\Weather.razor",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAADYAAAA/AAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAF8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-01-16T20:19:51.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -85,8 +101,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-16T20:19:11.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-16T20:19:11.874Z"
             }
           ]
         }

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "function_weather_trigger": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7111",
+      "launchBrowser": false
+    }
+  }
+}

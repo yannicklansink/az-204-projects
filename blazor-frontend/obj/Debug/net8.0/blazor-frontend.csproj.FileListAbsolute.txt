@@ -30,3 +30,4 @@ D:\dev\fun\azure-fun\204\blazor-frontend\obj\Debug\net8.0\ref\blazor-frontend.dl
 D:\dev\fun\azure-fun\204\blazor-frontend\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\dev\fun\azure-fun\204\blazor-frontend\obj\Debug\net8.0\blazor-frontend.csproj.AssemblyReference.cache
 D:\dev\fun\azure-fun\204\blazor-frontend\obj\Debug\net8.0\blazor-frontend.csproj.CopyComplete
+D:\dev\fun\azure-fun\204\blazor-frontend\obj\Debug\net8.0\blazor-frontend.sourcelink.json
