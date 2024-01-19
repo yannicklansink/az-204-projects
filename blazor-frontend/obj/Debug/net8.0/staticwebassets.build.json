@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tlnr7NvldnSq++NR6vqnk5w1AAQYa02DLON6c74Cnik=",
+  "Hash": "zRhxB82N+L0XywUM06gNz/ANxld/41vrj1p3TosWIGk=",
   "Source": "blazor-frontend",
   "BasePath": "_content/blazor-frontend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "blazor-frontend\\wwwroot",
       "Source": "blazor-frontend",
-      "ContentRoot": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\",
+      "ContentRoot": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\",
       "BasePath": "_content/blazor-frontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor-frontend.styles.css",
+      "Identity": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor-frontend.styles.css",
       "SourceId": "blazor-frontend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/blazor-frontend",
       "RelativePath": "blazor-frontend.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor-frontend.styles.css"
+      "OriginalItemSpec": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor-frontend.styles.css"
     },
     {
-      "Identity": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-frontend.bundle.scp.css",
+      "Identity": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-frontend.bundle.scp.css",
       "SourceId": "blazor-frontend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/blazor-frontend",
       "RelativePath": "blazor-frontend.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-frontend.bundle.scp.css"
+      "OriginalItemSpec": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-frontend.bundle.scp.css"
     },
     {
-      "Identity": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\app.css",
+      "Identity": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\app.css",
       "SourceId": "blazor-frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\",
+      "ContentRoot": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\",
       "BasePath": "_content/blazor-frontend",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "blazor-frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\",
+      "ContentRoot": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\",
       "BasePath": "_content/blazor-frontend",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "blazor-frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\",
+      "ContentRoot": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\",
       "BasePath": "_content/blazor-frontend",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\favicon.png",
+      "Identity": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\favicon.png",
       "SourceId": "blazor-frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\wwwroot\\",
+      "ContentRoot": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\wwwroot\\",
       "BasePath": "_content/blazor-frontend",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
