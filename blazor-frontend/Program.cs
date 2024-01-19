@@ -7,6 +7,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddHttpClient();
+builder.Services.AddApplicationInsightsTelemetry("35a9ba96-1a18-4f0d-939d-2b7a53a94676");
 
 var app = builder.Build();
 

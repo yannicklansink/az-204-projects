@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\blazor-frontend.csproj": {}
+    "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\blazor-frontend.csproj": {}
   },
   "projects": {
-    "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\blazor-frontend.csproj": {
+    "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\blazor-frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\blazor-frontend.csproj",
+        "projectUniqueName": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\blazor-frontend.csproj",
         "projectName": "blazor-frontend",
-        "projectPath": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\blazor-frontend.csproj",
-        "packagesPath": "C:\\Users\\lansy00\\.nuget\\packages\\",
-        "outputPath": "C:\\WORK\\Fun\\az-204-projects\\blazor-frontend\\obj\\",
+        "projectPath": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\blazor-frontend.csproj",
+        "packagesPath": "C:\\Users\\yanni\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\fun\\azure-fun\\204\\blazor-frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lansy00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,17 +35,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -70,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
