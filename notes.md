@@ -26,3 +26,11 @@ are essentially packages for Kubernetes applications. Think of them like a folde
 ### Functions
 
 Function parameter like Ilogger and HttpRequest are provided by the Azure Function runtime, not the caller.
+
+### Steps for docker and azure container registry
+
+docker build -t yourblazorapp .
+az acr login --name containerregistryweathertracker.azurecr.io
+docker run -p 8080:8080 --name myblazorapp yourblazorapp (run container locally to test functionality)
+docker tag yourblazorapp containerregistryweathertracker.azurecr.io/yourblazorapp:v1
+docker push containerregistryweathertracker.azurecr.io/yourblazorapp:v1

@@ -7,6 +7,8 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using Microsoft.ApplicationInsights.Extensibility;
+using Microsoft.ApplicationInsights;
 
 namespace function_weather_trigger
 {
@@ -18,6 +20,10 @@ namespace function_weather_trigger
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
+            string instrumentationKeyAppInsights = "35a9ba96-1a18-4f0d-939d-2b7a53a94676";
+            var telemetry = new TelemetryClient(new TelemetryConfiguration(instrumentationKeyAppInsights));
+            telemetry.TrackEvent("CustomEventName");
+
 
             string name = req.Query["name"];
 
